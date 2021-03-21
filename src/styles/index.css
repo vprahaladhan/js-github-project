@@ -1,0 +1,43 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#github-container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+hr.border {
+  border-bottom: 2px dashed #bbb;
+}
+
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
